@@ -1,4 +1,5 @@
 # Aedivos-wiki
 Repo for eventuals colaborators to the Aedivos website !
 
-in search of someone that can do ssh and sql 
+Working on the design of the pages
+then will figure out a way to implement a wiki page on the thing !
