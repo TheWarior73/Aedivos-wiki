@@ -7,10 +7,17 @@
 | 0.1     | :x:                |
 | 0.2     | :white_check_mark: |
 
+=======
 ## latest version of the website :
 
 V.0.2
-last updated on github <t:1674374885>
+last updated on github : 22/01/2023 10:09AM CEST
+
+=======
+## latest version of the website :
+
+V.0.2
+last updated on github 22/01/2023 10:09AM
 
 ## Reporting a Vulnerability
 
