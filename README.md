@@ -9,3 +9,7 @@ This is a litle beginer project hosted for a semi-RP minecraft community to show
 
 • The different pages design
 • A way to implement a wiki on the website
+| Done    | Working on         |
+| ------- | ------------------ |
+| :x:     | Design             |
+| :x:     | Wiki implementation|
