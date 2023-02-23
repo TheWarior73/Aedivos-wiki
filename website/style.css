@@ -2,7 +2,7 @@ body {margin:0;}
 
 
 /* NAV BAR */
-ul {
+.top {
   list-style-type: none;  
   margin: 0;
   padding: 0;
@@ -13,16 +13,19 @@ ul {
   width: 100%;
 }
 
-li {
-  float: left;
+.top a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-li a {
-  display: block;
+.top a:hover {
+  background-color: #049faa;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
 li a:hover:not(.active) {
@@ -30,10 +33,12 @@ li a:hover:not(.active) {
 }
 
 .active {
-  background-color: #04AA6D;
+  background-color: #049faa;
 }
 
-/* NAV BAR */
+/* END NAV BAR */
+
+/* STYLING */
 
 h1 {
   font-family: 'Amatic SC';
@@ -49,4 +54,66 @@ body {
   background-attachment: fixed;
   background-size: cover;
   text-align: center;
+  color: #03ce91;
+  text-shadow: 2px 2px 4px #016346;
 }
+
+h3 {
+  font-family: 'Dosis', cursive ;
+}
+
+.lore {
+  color: #51d3df;
+}
+
+/* END STYLING */
+
+/* EPERIMENTAL FEATURE
+
+.lore :hover {  
+  background-color: #0163467e;
+  text-align: center;
+  width:fit-content;
+  margin: 0 auto;
+  border-radius:1em;
+}
+
+*/
+
+/*  BOTTOM NAVBAR */
+
+/* Place the navbar at the bottom of the page, and make it stick */
+.bottom {
+  list-style-type: none;  
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Styled links */
+.bottom a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* links color when hovered */
+.bottom a:hover {
+  background-color: #049faa;
+  color: white;
+}
+
+.tm {
+  display: flex;
+  justify-content: right;
+}
+
+/* END BOTTOM NAVBAR */
