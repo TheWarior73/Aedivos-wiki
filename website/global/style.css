@@ -11,6 +11,7 @@ body {margin:0;}
   position: fixed;
   top: 0;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .top a {
@@ -41,11 +42,15 @@ li a:hover:not(.active) {
 /* STYLING */
 
 h1 {
-  font-family: 'Amatic SC';
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
-  font-family: 'Dosis', cursive ;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.presentation {
+  font-size: small;
 }
 
 body {
@@ -68,6 +73,10 @@ h3 {
 }
 
 
+.discord {
+  display: inline-block;
+}
+
 /* END STYLING */
 
 
@@ -80,6 +89,7 @@ h3 {
   bottom: 0;
   width: 100%;
   left: 0px;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* Styled links */
