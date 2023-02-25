@@ -14,10 +14,6 @@ V.0.2
 last updated on github : 22/01/2023 10:09AM CEST
 
 =======
-## latest version of the website :
-
-V.0.2
-last updated on github 22/01/2023 10:09AM
 
 ## Reporting a Vulnerability
 
