@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Aedivos Wiki | Login</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="global/style.css">
+    <link rel="stylesheet" href="login_style.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans:wght@500&family=Roboto:wght@300&display=swap');
+    </style>
+</head>
+<body>
+
+    <div class="top">
+      <a href="index.html">Home</a>
+      <a href="wiki.html">Wiki</a>
+      <a href="presentation.html">Presentation</a>
+      <a href="credits.html">Crédits</a>
+      <a class="active" href="Login.html">Log in</a>
+    </div>
+      
+    <div style="padding:20px;margin-top:30px;background-color:#0e265a96;height:1500px;">
+        <h2>Connection/Inscription</h2>
+
+        <button onclick="document.getElementById('id01').style.display='block'" style="width:300px; height:fit-content;" title="Login"><h2>Connection</h2></button>
+
+        <div id="id01" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close">&times;</span>
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>Pseudonyme ou e-mail</b></label>
+                <input type="text" placeholder="Entrez votre Pseudonyme/E-mail" name="uname" required>
+
+                <label for="psw"><b>Mot de passe</b></label>
+                <input type="password" placeholder="Entrez votre mot de passe" name="psw" required>
+        
+                <button type="submit">Se connecter</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Se rappeler de moi
+            </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+            </div>
+        </form>
+        </div>
+
+        <button onclick="document.getElementById('id02').style.display='block'" style="width:300px; height:fit-content;" title="Login"><h2>Inscription</h2></button>
+
+        <div id="id02" class="modal">
+  
+        <form class="modal-content animate" action="/action_page.php" method="post">
+            <div class="imgcontainer">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close">&times;</span>
+            </div>
+
+            <div class="container">
+                <label for="uname"><b>E-mail</b></label>
+                <input type="text" placeholder="example@gmail.com" name="uname" required>
+
+                <label for="uname"><b>Pseudonyme</b></label>
+                <input type="text" placeholder="Th3_warior" name="uname" required>
+
+                <label for="psw"><b>Mot de passe</b></label>
+                <input type="password" placeholder="Entrez votre mot de passe" name="psw" required>
+        
+                <button type="submit">S'inscrire</button>
+            <label>
+                <input type="checkbox" checked="checked" name="remember"> Se rappeler de moi
+            </label>
+            </div>
+
+            <div class="container" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
+            </div>
+        </form>
+        </div>
+
+        <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+        var modal2 = document.getElementById('id02');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+            modal.style.display = "none";
+            }
+        }
+        window.onclick = function(event) {
+            if (event.target == modal2) {
+                modal2.style.display = 'none';
+            }
+        }
+        </script>
+    </div>
+
+    <div class="bottom">
+        <a href="https://discord.gg/Fr4at9u" title="Discord d'aedivos">Discord</a>
+        <a href="https://github.com/TheWarior73/Aedivos-wiki" title="Le site est open source !">Github project</a>
+        <div class="tm">Aedivos staff 2023</div>
+    </div>
+</body>
+</html>

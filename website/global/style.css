@@ -2,6 +2,7 @@ body {margin:0;}
 
 
 /* NAV BAR */
+
 .top {
   list-style-type: none;  
   margin: 0;
@@ -36,6 +37,7 @@ li a:hover:not(.active) {
 .active {
   background-color: #049faa;
 }
+
 
 /* END NAV BAR */
 
@@ -73,9 +75,6 @@ h3 {
 }
 
 
-.discord {
-  display: inline-block;
-}
 
 /* END STYLING */
 
